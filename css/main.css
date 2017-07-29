@@ -95,4 +95,17 @@ p {
         padding-bottom: 0.5%;
     }
 
+    footer {
+        width: 100%;
+        background-color: black;
+        clear: both;
+    }
+
+    footer p {
+        color: white;
+        font-size: 0.875rem;
+        display: block;
+        padding: 1%;
+    }
+
 }
