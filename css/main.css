@@ -29,6 +29,12 @@ p {
         text-align: center;
     }
 
+    img {
+        width: 50%;
+        display: block;
+        margin: auto;
+    }
+
     main h2 {
         color: #a9dfee;
         font-family: 'Libre Franklin', sans-serif;
