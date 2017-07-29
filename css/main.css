@@ -1,4 +1,13 @@
 body {
     background-color: white;
-    padding: 2%;
+}
+
+@media (min-width: 320px) {
+    header {
+        background-image: url(../img/banner.JPG);
+        background-position: 85% 85%;
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+
 }
