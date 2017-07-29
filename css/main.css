@@ -1,13 +1,33 @@
 body {
     background-color: white;
+    background-position: center;
+    background-attachment: fixed;
 }
 
 @media (min-width: 320px) {
     header {
         background-image: url(../img/banner.JPG);
         background-position: 85% 85%;
-        background-size: 100%;
+        background-size: cover;
         background-repeat: no-repeat;
+    }
+
+    header h1 {
+        color: white;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 900;
+        font-size: 3rem;
+        padding: 10%;
+        margin: auto;
+        text-align: center;
+    }
+
+    main h2 {
+        color: #a9dfee;
+        font-family: 'Libre Franklin', sans-serif;
+        font-weight: 600;
+        font-size: 1.5rem;
+        padding: 2%;
     }
 
 }
