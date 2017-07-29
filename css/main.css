@@ -81,4 +81,18 @@ p {
         font-style: italic;
     }
 
+    aside h2 {
+        color: #a9dfee;
+        font-family: 'Libre Franklin', sans-serif;
+        font-weight: 800;
+        font-size: 1.5rem;
+        padding: 2%;
+    }
+
+    aside ul li {
+        list-style-type: none;
+        color: #5b5b5b;
+        padding-bottom: 0.5%;
+    }
+
 }
