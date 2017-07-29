@@ -115,3 +115,21 @@ p {
     }
 
 }
+
+@media (min-width: 800px) {
+
+    main {
+        float: left;
+        width: 60%;
+    }
+
+    aside {
+        float: right;
+        background-color: #9fa3a4;
+    }
+
+    aside ul li {
+        color: black;
+    }
+
+}
