@@ -5,3 +5,10 @@ jQuery(document).ready(function () {
 
 //Allows user to zoom image to get a closer look
 $('#zoom').elevateZoom();
+
+//Hides image when clicked to save space when scrolling, especially on mobile
+$(document).ready(function () {
+    $('img').click(function () {
+        $(this).hide();
+    });
+});
