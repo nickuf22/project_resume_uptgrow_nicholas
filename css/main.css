@@ -101,6 +101,13 @@ p {
         padding-bottom: 0.5%;
     }
 
+    .alignLeft {
+        float: none;
+    }
+    .alignRight {
+        float: none;
+    }
+
     footer {
         width: 100%;
         background-color: black;
@@ -130,6 +137,55 @@ p {
 
     aside ul li {
         color: black;
+    }
+
+}
+
+@media (min-width: 1000px) {
+
+    header h1 {
+        font-size: 5rem;
+    }
+
+    main {
+        float: left;
+        width: 70%;
+    }
+
+    main h2 {
+        font-size: 2.5rem;
+    }
+
+    main p {
+        text-align: center;
+    }
+
+    section p,
+    div p {
+        text-align: left;
+    }
+
+    aside {
+        float: right;
+        background-color: #9fa3a4;
+    }
+
+    aside ul li {
+        color: black;
+    }
+
+    .flex-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: nowrap;
+        align-items: baseline;
+        align-content: center;
+    }
+
+    .flex-item {
+        width: 30%;
+        padding: 0 10px 0 10px;
     }
 
 }
